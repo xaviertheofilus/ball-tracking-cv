@@ -15,10 +15,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Downloaded data and generated training artifacts
-dataset/
-runs/
-yolo11n.pt
 
 # Temporary files
 *.tmp

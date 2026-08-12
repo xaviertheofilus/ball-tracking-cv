@@ -1,0 +1,14 @@
+train: D:\TRAINING\ball-tracker-cv\dataset\train_cpu.txt
+val: D:\TRAINING\ball-tracker-cv\dataset\valid\images
+test: D:\TRAINING\ball-tracker-cv\dataset\test\images
+nc: 2
+names:
+- ball
+- player
+roboflow:
+  workspace: xaviertheofiluss-workspace
+  project: football-player-ball-ptjqv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/xaviertheofiluss-workspace/football-player-ball-ptjqv/dataset/1
+path: D:\TRAINING\ball-tracker-cv\dataset

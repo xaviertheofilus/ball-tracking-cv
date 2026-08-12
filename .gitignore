@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Downloaded data and generated training artifacts
+dataset/
+runs/
+yolo11n.pt
+
+# Temporary files
+*.tmp
+*.log
